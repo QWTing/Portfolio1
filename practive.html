@@ -94,6 +94,7 @@
     }
   </style>
   <script type="module">
+    //商品資料
     const products = {
       products: [
         {
@@ -153,21 +154,26 @@
       data(){
         return {
           ...products,
+          //要顯示的資料
           productdatail:{},
+          //控制為點擊前是否顯示
           show:0
         }
       },
       methods: {
+        //顯示點擊商品的資料
         details(id){
           this.products.forEach((item,i) => {
             if(item.id === id){
+              //清空資料
               this.productdatail = {},
+              //加入資料
               this.productdatail = {
                 ...this.products[i]
               }
-              console.log(this.productdatail)
             }
           }),
+          //顯示資料
           this.show = 1
         }
       }
