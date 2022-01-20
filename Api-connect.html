@@ -75,7 +75,6 @@
                 document.cookie = `hexToken=${token}; expires=${ new Date (expired)}`
                 const Token = document.cookie.replace(/(?:(?:^|.*;\s*)hexToken\s*\=\s*([^;]*).*$)|^.*$/, "$1")
                 axios.defaults.headers.common['Authorization'] = Token;
-                console.log(Token)
                 this.token = token;
                 this.expired = expired
               })
