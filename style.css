@@ -1,0 +1,180 @@
+.c8A82CC {
+  background-color: #8A82CC;
+}
+
+.cFFA782 {
+  background-color: #FFA782;
+}
+
+.cF5D005 {
+  background-color: #F5D005;
+}
+
+.c559AC8 {
+  background-color: #559AC8;
+}
+
+.ml8 {
+  margin-left: 8px;
+}
+
+.mr26 {
+  margin-right: 26px;
+}
+
+.ml26 {
+  margin-left: 26px;
+}
+
+.mt13 {
+  margin-top: 13px;
+}
+
+.main {
+  background-image: url(https://hexschool.github.io/JavaScript_HomeWork/assets/Hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  height: 380px;
+  text-align: center;
+}
+.main h1 {
+  color: #fff;
+  font-size: 40px;
+  padding: 89px 0 96px 0;
+  letter-spacing: 3.89px;
+}
+.main .areaselect {
+  width: 452px;
+  height: 48px;
+  border: 3px solid #FFFFFF;
+  padding-left: 9.5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 79px;
+}
+
+.HotArea {
+  width: 800px;
+  margin: 0 auto;
+  height: 112px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  margin-bottom: 79px;
+}
+.HotArea h3 {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 26px;
+}
+.HotArea ul {
+  padding-top: 14px;
+  padding-left: 51px;
+  display: flex;
+}
+.HotArea ul li {
+  padding-right: 32px;
+}
+.HotArea ul li input {
+  border: 0;
+  height: 42px;
+  width: 130px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+.HotArea ul li input:hover {
+  opacity: 80%;
+}
+.HotArea ul li input:active {
+  opacity: 100%;
+}
+
+.title-area {
+  margin-top: 76px;
+  margin-bottom: 24px;
+  color: #8A82CC;
+  font-size: 36px;
+}
+
+.content {
+  width: 944px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content .item {
+  margin-bottom: 36px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 464px;
+}
+.content .item .content-title {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 464px;
+  height: 155px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.content .item .content-title h3 {
+  padding: 117px 0 0 22px;
+  font-size: 24px;
+}
+.content .item .content-title em {
+  padding: 125px 24px 0 0;
+  font-size: 16px;
+}
+.content .item .tag {
+  position: absolute;
+  right: 14px;
+  bottom: 19px;
+}
+.content .item .tag a {
+  text-decoration: none;
+  color: #000;
+}
+.content .detailList {
+  margin: 15px 23px 20px 23px;
+}
+.content .detailList li {
+  display: flex;
+  text-align: left;
+}
+
+.page {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 41px;
+}
+.page input {
+  background-color: #fff;
+  border: 0;
+  color: #4A4A4A;
+}
+.page .page-list {
+  display: flex;
+}
+.page .page-list input {
+  height: 24px;
+  width: 24px;
+  font-size: 14px;
+}
+
+.bg-footer {
+  background-color: #559AC8;
+  height: 90px;
+}
+.bg-footer h3 {
+  padding-top: 24px;
+  color: #fff;
+}
+.bg-footer p {
+  padding-top: 15px;
+  color: #FFD366;
+}/*# sourceMappingURL=style.css.map */
